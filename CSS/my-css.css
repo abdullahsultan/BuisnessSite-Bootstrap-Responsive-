@@ -1,0 +1,236 @@
+
+.blue-header{
+    background-color: #013f72;
+ 
+}
+.blue-header a{
+    color:  #adadad;
+}
+.blue-header a:hover{
+    color:  #03a9f3;
+}
+
+
+.my_class{
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0rem;
+    
+}
+
+.my_class li a{
+    color: white;
+    font-size: 0.90rem;
+    font-family: calibri;
+}
+
+.my_class li{
+    padding-right: 0.9rem;
+}
+.top_button{
+    color: white;
+    background-image: url(../images/top_btn.png);
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 0px;
+    
+}
+
+.top_button:hover{
+    color: white;
+    background-image: url(../images/top_btn_hover.png);
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 0px;
+    
+}
+.button_trans{
+    background-color: transparent;
+    border: 0px;
+}
+.nav_dark
+{
+    background-color: #282828;
+}
+.nav_items li a{
+    padding: 1.5rem 1rem;
+    border-top:  1px solid transparent;
+    color: white!important;
+}
+.nav_items li a:hover{
+    color: blue!important;
+    font-weight: bold;
+    background-color: #5c5c59;
+    border-color: #484844;
+}
+._bgImg{
+    background-image: url('../Images/slider_bg.jpg');
+    height: 440px;
+}
+.slider_button{
+    color: white;
+    background-image: url(../Images/slider_btn.png);
+    margin: 0;
+    width: 134px;
+    padding: 5px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 0px;
+}
+.the_body_bg{
+    background-image: url(../Images/body_pettren.jpg);
+}
+.no_border{
+    border-style: none;
+}
+.detail_img{
+    background-image: url(../Images/detail_bar.png);
+    background-size: cover;
+    height: 34px;
+    background-repeat: no-repeat;
+    border: 0px;
+    color: white;
+    margin-right: 0.25px;
+}
+.card_img{
+    background-image: url(../Images/card-img.png);
+    height: 34px;
+    background-size: cover;
+    margin: 0;
+    padding: 5px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 0px;
+    color: white;
+}
+.new_img{
+    background-image: url(../Images/new.png);
+    height: 34px;
+    background-size: cover;
+    margin: 0;
+    padding: 5px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 0px;
+    color: white;
+}
+.icon1{
+    background-image: url(../Images/icon1.png);
+    height: 65px;
+    width: 65px;
+    margin: 0;
+    padding: 5px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 0px;
+    background-color: transparent;
+
+}
+.icon2{
+    background-image: url(../Images/icon2.png);
+    height: 65px;
+    width: 65px;
+    margin: 0;
+    padding: 5px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 0px;
+    background-color: transparent;
+
+}
+.icon3{
+    background-image: url(../Images/icon3.png);
+    height: 65px;
+    width: 65px;
+    margin: 0;
+    padding: 5px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 0px;
+    background-color: transparent;
+
+}
+.icon4{
+    background-image: url(../Images/icon4.png);
+    height: 65px;
+    width: 65px;
+    margin: 0;
+    padding: 5px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 0px;
+    background-color: transparent;
+
+}
+.icon5{
+    background-image: url(../Images/icon5.png);
+    height: 65px;
+    width: 65px;
+    margin: 0;
+    padding: 5px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 0px;
+    background-color: transparent;
+
+}
+
+.border_top{
+    border-top: 1px dotted;
+    margin-bottom: 3px;
+}
+.border_bottom{
+    border-bottom: 1px dotted;
+}
+.group_btn{
+    background-image: url(../Images/group_btn.png);
+    background-color: transparent;
+    padding: 5px;
+    border: 0px;
+    height: 38px;
+    width: 147px;
+}
+.group_btn:hover{
+    background-image: url(../Images/group_btn_hover.png);
+    background-color: transparent;
+    padding: 5px;
+    border: 0px;
+    height: 38px;
+    width: 147px;
+}
+.arrow{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border-style: none;
+}
+.arrow_list{
+    list-style: none;
+    padding: 0px;
+    
+}
+.arrow font{
+    color: #727273;
+}
+.white_background{
+    background-color: white;
+    padding: 2rem;
+}
+.form_background{
+    background-color: white;
+    height: 20%!important;
+}
+.footer-fuid{
+    background-color: #232323;
+}
+.copyright{
+    background-color: #191919;
+}
+.footer_table tr a{
+    color: white;
+    padding: 1rem;
+}
+.footer_table tr a:hover{
+    color: #03a9f3;
+}
