@@ -30,8 +30,9 @@
 .top_button{
     color: white;
     background-image: url(../images/top_btn.png);
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
+    background-color: transparent;
+    width: 133px;
+    height: 25px;
     border: 0px;
     
 }
@@ -39,8 +40,9 @@
 .top_button:hover{
     color: white;
     background-image: url(../images/top_btn_hover.png);
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
+    background-color: transparent;
+    width: 133px;
+    height: 25px;
     border: 0px;
     
 }
@@ -90,6 +92,7 @@
     color: white;
     margin-right: 0.25px;
 }
+
 .card_img{
     background-image: url(../Images/card-img.png);
     height: 34px;
@@ -227,8 +230,12 @@
     padding: 0px;
     
 }
-.arrow font{
+.arrow font a{
     color: #727273;
+}
+.arrow font a:hover{
+    color: black;
+    font-weight: bold;
 }
 .white_background{
     background-color: white;
