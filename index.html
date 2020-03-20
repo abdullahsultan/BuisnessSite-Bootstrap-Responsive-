@@ -24,8 +24,8 @@
                         </div>
 
                         <div class="col-lg-4 text-right">
-                            <button class="button_trans top_button">Send An Enquiry</button>
-                            <button class="button_trans top_button pr-0">Our Locations</button>
+                            <button class="button_trans top_button" style="font-size: 0.85rem">Send An Enquiry</button>
+                            <button class="button_trans top_button pr-0" style="font-size: 0.85rem">Our Locations</button>
                         </div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
                                         </button>
                                     </div>
                                     <div class="col-lg-6">
-                                        <img src="Images/slider_image.png">
+                                        <img src="Images/slider_image.png" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -183,32 +183,81 @@
                     </div>
 
                 </div>
-                <!-----------------------------------------------Cloud Image---------------------------------------->
+                <!-----------------------------------------------Cloud Image Tabs---------------------------------------->
                 <div class="container border_bottom">
-                    <!---------------------------------------Cloud Buttons--------------------------------------->
-                    <div class="text-center py-3 border_bottom">
-                        <button class="group_btn">Cloud Solutions</button>
-                        <button class="group_btn">IT Services</button>
-                        <button class="group_btn">IT Solutions</button>
-                    </div>
-                    <!------------------------------------------------------------------------------------------------>
-                    <div class="row pt-3">
-                        <div class="col-lg-5"><img src="Images/group%20_image.png">
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="ml-5">
-                                <h3>Cloud Computing</h3>
-                                <p><font>The CN Group offers a range of cloud computing solutions, customized to your buisness needs and operational requirements, so you can move your buisness to the cloud in your own time and on your own terms. Our Cloud Computing Services include:</font></p>
-                                <ul class="arrow_list">
-                                    <li><div class="arrow"><img src="Images/arrow.png">   <font>Cloud ERP</font></div></li>
-                                    <li><div class="arrow"><img src="Images/arrow.png">   <font>Microsoft 365</font></div></li>
-                                    <li><div class="arrow"><img src="Images/arrow.png">   <font>Custom Solutions</font></div></li>
-                                </ul>
-                                <div>
-                                    <button class="slider_button">Find Out More</button>
+                        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><button class="group_btn">Cloud Solutions</button></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><button class="group_btn">IT Services</button></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"><button class="group_btn">IT Solutions</button></a>
+                            </li>
+                        </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <div class="row pt-3">
+                                <div class="col-lg-5"><img src="Images/group%20_image.png" class="img-fluid">
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="ml-5">
+                                        <h3>Cloud Computing</h3>
+                                        <p><font>The CN Group offers a range of cloud computing solutions, customized to your buisness needs and operational requirements, so you can move your buisness to the cloud in your own time and on your own terms. Our Cloud Computing Services include:</font></p>
+                                        <ul class="arrow_list">
+                                            <li><div class="arrow"><img src="Images/arrow.png">   <font>Cloud ERP</font></div></li>
+                                            <li><div class="arrow"><img src="Images/arrow.png">   <font>Microsoft 365</font></div></li>
+                                            <li><div class="arrow"><img src="Images/arrow.png">   <font>Custom Solutions</font></div></li>
+                                        </ul>
+                                        <div>
+                                            <button class="slider_button">Find Out More</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><div class="container border_bottom">
+                            <div class="row pt-3">
+                                <div class="col-lg-5"><img src="Images/it-services.png" class="img-fluid">
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="ml-5">
+                                        <h3>IT Services</h3>
+                                        <p><font>The CN Group offers a range of cloud computing solutions, customized to your buisness needs and operational requirements, so you can move your buisness to the cloud in your own time and on your own terms. Our Cloud Computing Services include:</font></p>
+                                        <ul class="arrow_list">
+                                            <li><div class="arrow"><img src="Images/arrow.png">   <font>Cloud ERP</font></div></li>
+                                            <li><div class="arrow"><img src="Images/arrow.png">   <font>Microsoft 365</font></div></li>
+                                            <li><div class="arrow"><img src="Images/arrow.png">   <font>Custom Solutions</font></div></li>
+                                        </ul>
+                                        <div>
+                                            <button class="slider_button">Find Out More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div></div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            <div class="row pt-3">
+                                <div class="col-lg-5"><img src="Images/it-solutions.png" class="img-fluid">
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="ml-5">
+                                        <h3>IT Solutions</h3>
+                                        <p><font>The CN Group offers a range of cloud computing solutions, customized to your buisness needs and operational requirements, so you can move your buisness to the cloud in your own time and on your own terms. Our Cloud Computing Services include:</font></p>
+                                        <ul class="arrow_list">
+                                            <li><div class="arrow"><img src="Images/arrow.png">   <font>Cloud ERP</font></div></li>
+                                            <li><div class="arrow"><img src="Images/arrow.png">   <font>Microsoft 365</font></div></li>
+                                            <li><div class="arrow"><img src="Images/arrow.png">   <font>Custom Solutions</font></div></li>
+                                        </ul>
+                                        <div>
+                                            <button class="slider_button">Find Out More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <!-------------------------------------------------------------------------------------------------->
@@ -296,7 +345,7 @@
             <div class="container-fluid footer-fuid py-3">
                 <div class="container">
                     <div class="row footer_table">
-                        <div class="col-lg-6">
+                        <div class="col-lg-8">
                             <div class="row">
                                 <table>
                                     <div class="col-lg-2 ">
@@ -347,8 +396,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6">
-                            <img src="Images/footer_image.jpg">
+                        <div class="col-lg-4">
+                            <img src="Images/footer_image.jpg" class="img-fluid">
                         </div>
 
                     </div>
