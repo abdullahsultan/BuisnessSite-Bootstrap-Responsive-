@@ -126,6 +126,25 @@
     background-color: transparent;
 
 }
+.detail_img:hover ,.icon1:hover{
+    background-image: url(../Images/detail_hover.png);
+    background-size: cover;
+    height: 34px;
+    background-repeat: no-repeat;
+    border: 0px;
+    color: white;
+    margin-right: 0.25px;
+    
+    background-image: url(../Images/icon1h.png);
+    height: 65px;
+    width: 65px;
+    margin: 0;
+    padding: 5px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 0px;
+    background-color: transparent;
+}
 .icon2{
     background-image: url(../Images/icon2.png);
     height: 65px;
@@ -227,9 +246,13 @@
 .copyright{
     background-color: #191919;
 }
+
 .footer_table tr a{
     color: white;
-    padding: 1rem;
+    padding: 10px;
+    margin: 5px;
+    padding-left: 0px;
+    margin-left: 0px;
 }
 .footer_table tr a:hover{
     color: #03a9f3;
