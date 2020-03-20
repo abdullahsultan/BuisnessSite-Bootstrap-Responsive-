@@ -70,11 +70,9 @@
 .slider_button{
     color: white;
     background-image: url(../Images/slider_btn.png);
-    margin: 0;
+    background-color: transparent;
     width: 134px;
-    padding: 5px;
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
+    height: 35px;
     border: 0px;
 }
 .the_body_bg{
@@ -238,7 +236,6 @@
 }
 .form_background{
     background-color: white;
-    height: 20%!important;
 }
 .footer-fuid{
     background-color: #232323;

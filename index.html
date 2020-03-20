@@ -78,7 +78,7 @@
         <section>
             <div class="container-fluid _bgImg">
                 <div class="container">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="row"  alt="First slide"> 
@@ -94,20 +94,31 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="row" alt="Second slide">
-                                    <div class="col-lg-5">
+                                <div class="row"  alt="First slide"> 
+                                    <div class="col-lg-6 py-5 pl-5">
                                         <h3 class="py-4">IT Support Made Easy</h3>
-                                        <p class="font-weight-light">Our expert IT technitians can assess your computer or technology issue and provide fast,effective IT support both on side and  good slotions networking</p>
-                                        <button class="slider_button ">Find Out More
+                                        <p class="font-weight-light pr-3">Our expert IT technitians can assess your computer or technology issue and provide fast,effective IT support both on side and  good slotions networking</p>
+                                        <button class="slider_button">Find Out More
                                         </button>
                                     </div>
-                                    <div class="col-lg-7">
-                                        <img src="Images/slider_image.png">
+                                    <div class="col-lg-6">
+                                        <img src="Images/slider_image.png" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
+
                         </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
+
+
                 </div>
             </div>
         </section>
@@ -246,31 +257,33 @@
 
                 <!-------------------------------------------------------------------------------------------------->
                 <!------------------------------------------Form---------------------------------------------------->
-                <div class="container mt-3 form_background py-4 text-center">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <h3>News Letter SignUp</h3>
-                        </div>
-                        <div class="col-lg-3">
-                            <form>
-                                <div class="row">
-                                    <div class="col">
-                                        <input type="text" class="form-control" placeholder="Name">
+                <div class="container text-center">
+                    <div class="mt-3 form_background py-4">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <h3>News Letter SignUp</h3>
+                            </div>
+                            <div class="col-lg-3">
+                                <form>
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="Name">
+                                        </div>
                                     </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-lg-3">
-                            <form>
-                                <div class="row">
-                                    <div class="col">
-                                        <input type="email" class="form-control" placeholder="Email">
+                                </form>
+                            </div>
+                            <div class="col-lg-3">
+                                <form>
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="email" class="form-control" placeholder="Email">
+                                        </div>
                                     </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-lg-3">
-                            <button class="slider_button">Sign Up</button>
+                                </form>
+                            </div>
+                            <div class="col-lg-3">
+                                <button class="slider_button">Sign Up</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -283,7 +296,7 @@
             <div class="container-fluid footer-fuid py-3">
                 <div class="container">
                     <div class="row footer_table">
-                        <div class="col-lg-8">
+                        <div class="col-lg-6">
                             <div class="row">
                                 <table>
                                     <div class="col-lg-2 ">
@@ -334,7 +347,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-lg-6">
                             <img src="Images/footer_image.jpg">
                         </div>
 
@@ -348,6 +361,11 @@
             </div>
         </footer>
         <!---------------------------------------------------------------------------------------------------------->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.4.1.slim.min.js" ></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
 
