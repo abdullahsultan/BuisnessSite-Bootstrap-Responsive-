@@ -1,7 +1,7 @@
 
 .blue-header{
     background-color: #013f72;
- 
+
 }
 .blue-header a{
     color:  #adadad;
@@ -15,7 +15,7 @@
     list-style-type: none;
     display: inline-flex;
     margin: 0rem;
-    
+
 }
 
 .my_class li a{
@@ -34,7 +34,7 @@
     width: 133px;
     height: 25px;
     border: 0px;
-    
+
 }
 
 .top_button:hover{
@@ -44,7 +44,7 @@
     width: 133px;
     height: 25px;
     border: 0px;
-    
+
 }
 .button_trans{
     background-color: transparent;
@@ -127,15 +127,7 @@
     background-color: transparent;
 
 }
-.detail_img:hover ,.icon1:hover{
-    background-image: url(../Images/detail_hover.png);
-    background-size: cover;
-    height: 34px;
-    background-repeat: no-repeat;
-    border: 0px;
-    color: white;
-    margin-right: 0.25px;
-    
+.hover_1:hover .icon1{
     background-image: url(../Images/icon1h.png);
     height: 65px;
     width: 65px;
@@ -146,6 +138,16 @@
     border: 0px;
     background-color: transparent;
 }
+.hover_1:hover .detail_img{
+    background-image: url(../Images/detail_hover.png);
+    background-size: cover;
+    height: 34px;
+    background-repeat: no-repeat;
+    border: 0px;
+    color: white;
+    margin-right: 0.25px;
+}
+
 .icon2{
     background-image: url(../Images/icon2.png);
     height: 65px;
@@ -156,7 +158,26 @@
     padding-right: 0.3rem;
     border: 0px;
     background-color: transparent;
-
+}
+.hover_2:hover .icon2{
+        background-image: url(../Images/icon2h.png);
+    height: 65px;
+    width: 65px;
+    margin: 0;
+    padding: 5px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 0px;
+    background-color: transparent;
+}
+.hover_2:hover .card_img{
+    background-image: url(../Images/detail_hover.png);
+    background-size: cover;
+    height: 34px;
+    background-repeat: no-repeat;
+    border: 0px;
+    color: white;
+    margin-right: 0.25px;
 }
 .icon3{
     background-image: url(../Images/icon3.png);
@@ -168,7 +189,26 @@
     padding-right: 0.3rem;
     border: 0px;
     background-color: transparent;
-
+}
+.hover_3:hover .icon3{
+        background-image: url(../Images/icon3h.png);
+    height: 65px;
+    width: 65px;
+    margin: 0;
+    padding: 5px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 0px;
+    background-color: transparent;
+}
+.hover_3:hover .card_img{
+    background-image: url(../Images/detail_hover.png);
+    background-size: cover;
+    height: 34px;
+    background-repeat: no-repeat;
+    border: 0px;
+    color: white;
+    margin-right: 0.25px;
 }
 .icon4{
     background-image: url(../Images/icon4.png);
@@ -182,6 +222,26 @@
     background-color: transparent;
 
 }
+.hover_4:hover .icon4{
+        background-image: url(../Images/icon4h.png);
+    height: 65px;
+    width: 65px;
+    margin: 0;
+    padding: 5px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 0px;
+    background-color: transparent;
+}
+.hover_4:hover .card_img{
+    background-image: url(../Images/detail_hover.png);
+    background-size: cover;
+    height: 34px;
+    background-repeat: no-repeat;
+    border: 0px;
+    color: white;
+    margin-right: 0.25px;
+}
 .icon5{
     background-image: url(../Images/icon5.png);
     height: 65px;
@@ -192,7 +252,26 @@
     padding-right: 0.3rem;
     border: 0px;
     background-color: transparent;
-
+}
+.hover_5:hover .icon5{
+        background-image: url(../Images/icon5h.png);
+    height: 65px;
+    width: 65px;
+    margin: 0;
+    padding: 5px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 0px;
+    background-color: transparent;
+}
+.hover_5:hover .new_img{
+    background-image: url(../Images/detail_hover.png);
+    background-size: cover;
+    height: 34px;
+    background-repeat: no-repeat;
+    border: 0px;
+    color: white;
+    margin-right: 0.25px;
 }
 
 .border_top{
@@ -228,7 +307,7 @@
 .arrow_list{
     list-style: none;
     padding: 0px;
-    
+
 }
 .arrow font a{
     color: #727273;
